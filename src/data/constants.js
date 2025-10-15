@@ -3,8 +3,7 @@ export const Bio = {
   name: "Gaurav K Kolhe",
   roles: [
     "Full Stack Developer",
-    "Android Developer",
-    "UI/UX Designer",
+    "Data Analyst",
     "Programmer",
   ],
   description:
@@ -103,10 +102,10 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      // {
-      //   name: "Firebase",
-      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      // },
+      {
+        name: "PHP",
+        image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADCElEQVR4AWIAgfDYqZr+kQD2qkFLkCAG3geerbVt27Zt27Zt27aZ65rd12/nbNd7o+5MUpNUMr4591747d975Uc/8kAMxEJMHvzOK59tbP7MAzEFEmCDhV9xPHjlm31LnPafnoW9W3zhFx1/LoH/BCSVQ0lKJYweSPj/fAKahjF0fn5BZ+x4pRjy8wmER5cSsLa+8/1LIK8RTio6kfxQ1Ip4J82VNT0EDA7PcJtHUgEim1cKwSI/yux4KR9Md19+hAA2d/cO6SYuL4kODo6ptKKT242Ozb9jc3x8Sp3d4/RUJlCwqWvsp7dxdnZOo+MLpK4f/X4CGqy2l4LDS5qYXKTJqSXa2trjDqLiyun+az/a2T0gYG5+jaaml2l1bVtkA1+T00sErK5u0fjEAi0ubQi6AYZH594hIKrtJgt6cx1BgI6uMVLVjSLg/OKCpFXDsM9I+dP+/hEB8cnVdOeFHx0enhDgHZB3lV12pGbWEXDEsvVIMuAdAqLa3lwfGJzmBCJiyghY39hhgXyF/WeygXTK0gtYO6aSoWUCAcjkSwXeJRQWVXpF4OgDBEbHhdqi3iJdICNATn4zVdVekezrn+I2Dm4ZBJycnNET6UCKTawkYI2V5qb/iupuAhYW15ERMQF8zd61AIPCivhLCSnVV85Pz0hZO5LGmIiAguJWbpOZ20jA/MKaQLiuoZ+A3v5JbqOmH80FnpXb9K4GNAxiCACg8pGxOSagbUHhQHp2g6hLvPzzuBOUBmhpGxaeIV4A76Ocs3OrdMo+AJiaWebp5wS4AMWAalFrCItPQACkJJRCrkvkSysrWwRAZOgStO07rXx4TK3tI/SaT05OQCzA4ZFZ1qdRwiHF5v2dl77c+Il0gLCuohspcqLKnrEOMeqaxnHyBubxWMegQqd8dBLy4VJc1vFNo5ULcJ13yadHMdIGpV+w3vYLLvgmAjV1vcLXd/dOfNm/4Hv9Xl/IB8MPK0fQm422iIjCow4Y8I7JgHfNBrRzGhQ5UwPeQwa5BhQk9Ah2kF2w7jkAoivzGh/q5RMAAAAASUVORK5CYII=",
+      },
     ],
   },
   // {
@@ -135,12 +134,47 @@ export const skills = [
   //   ],
   // },
   {
+    title: "Data Analysis",
+    skills: [
+      {
+        name: "Excel",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABUElEQVR4AWP4////gOLB7wDFxWkJQPyfWGx8pJEUnECMA/7T0AH/B78DRh0gNynmPyGsMDeJfAcI1DgmAPF/crBgqvV/qVp/kCMocsB/SjCnu+p/vnwrOJ/EKBtkDpBv8f1/5P4FMK7cNgUubjs1FSYOYtM2BKYfW/MfBD5+/wJyEEgMbDEQgGiaRwHIUrDlINCxb8F/n7mF/2FAryeSPmkga20nLBRAvoY5hq6JEGwxDDx6/4L+uWDrtSMQ2xFxjxXzmcr/Fws2/C8RYw7CpOYirA4AxTssCmDpARQtNHYAIhGCghwW7yCMnCto4ADC2RDuoGXndtDQAYigRw9yMBsKQGqo7wAS8bByAGXVMa+nBrIDyMGEGyTcWpL/cWFeQ9n/grYqtHWAkJP6f0JYPMKUdg4Q9tL5jw+LhRqDDKKdA4gwZPg7IIGGDkgY7R0DAHmp5kQ5gGrkAAAAAElFTkSuQmCC",
+      },
+      {
+        name: "Python",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAh1BMVEVHcEwBVJc3caE2bJdKir3z2mL/6m05daZAfa5Jd5nsyUUqbKFHZ3flw0Towzv+2Uz842rmwTgANYDeuzlFgrL/6nD94WL20ETvxzf50T5Jh7lAfKxAf7E9eqv/5GX/4Fz/6HH/3VNFhbc1cKD/2kowapr/1Dj/10H+/v786a2dt851nL7c5OukoiX2AAAAHHRSTlMAf0dz/ovF/qRkVcoZX2noqUpnMo7r88Ww1sbqk9MnjgAAAR1JREFUKJFl0etygyAQBWCCEIJGozE1TWu9C8b2/Z+vsEscA+ef882RXSBky5nKKJL0TMJINrBhGOr6JwmYMrYCmQhfb8PfstYWhRhlgOvya3vCYBRgPWJPjAHSEwTsDeVpC9h8zfOc41RfjMES7p/jPF8/uq6r4DSwGocBQ2y4Qay5JcAsNk1zMZcW2iwNtW1rr2Yz4eyQg/UlkS9LDi4SrO/7AtGY5EeXCmr9NMWE4qDRscM0rjZNuiQEl0h3BLVJa7PKNxzI/ZrWd4ORHRTwVQNTqrBXlJgdLL79UqlP9yJSUg5WZbFNmmVZsXsZjqddbHTqvSffJmmVynx0p6nn8gwwdZMAFh6SOy6n1DbnW/eB9PDHcSnjotx//wNQ0jN2CWQnkAAAAABJRU5ErkJggg==",
+      },
+      {
+        name: "PowerBI",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADhklEQVR4AWJhoBI4Xc7eD6itDjh3XbAyjP/ut4iGM2nSqFRTIwggBBEE+jLtvkjTEIA+SgCEIODIwDSVpBSVOPtdV2PMy3/Y+2A7B8uzeLAu173W81y9C4IBARUmXPeXf/QXX/w5fGUAl3c1hCkqMwEqMHuHrxagUH79D36RgOKuHo+tgH/6u//FwFcPYO5Z2wZ3VXQkGqb6OgDC1M8SbVOI0PV1GmCsEHdSXkYgvh4DGqi5q83EthV32lrtawKA6DLWDXYX2Ez79Ag+/6vvfC/egUgWSQU+++1f8c0f13/86J/937/+yGMaK0oVtk8yUN4BKUgliM++860fD/8WnV/+jW/7+89/6Fd/6bHLC8JYpXwCgCi/+ce/L1nUeeU96Y6O+OI9zGvomKbgEwBciFKHVKaJOt6aiY4KFBOfClAx6kmpEIUXQJRK8XzWY1ZA+HQDpeiOws9CKMmKounSJoAo2CcagE4dcXdtTSicUKfCw50SUcjyqd+B0h1SRxlefWVekNNl22bC9iUR/OCv//B7be8qW4qhQuCb3/2uX/j273n/Pz/0/r/+wdi9iUQ5UbrwmLhT5fF47KMAp3crgyISUD8Z/tnv/C7e+/lv/Jov/vNzCrnntRlRlMo96/HYsNJd4PoAgNL4rT/5UznD3VXnsQZ6IuBNFGN69SiXsHuqspkofBBAlHpvuHu22ZZ6LVsI1NNdPdZEHaijrI3B4N5rDyvyEQNkTp06Q840wdu8z7QuCiFdyF111rPCHla52AcBHKj3lMdaVZ2w3YhCunN3wWNW5+27scJjW3kZEH08AuppclfbbaO7LIscRS8zqbye8+rH62k268LHAEqiJ3oZQLabUscg3VNpa93bwadS6R4SwdxTnfERgMk8VXhdQuV1CXEhddQqok6iV0356Sk+Vul83EAO3PPZHk0n2VpXxKs6Om/1E6VCKpVtK2peEPmSM9yeW0l0iEJeVcedOl3ttYTQqXSv09vuWWIP68t2gOipN4OqFHsLcuooNOVVOUpN0ft6DX7tQD4IcIC3m3KUrVWvnk73pNzVY0YqxB2XbYPinl4gfHgHIrr3NurA3BQOdIcoFR2oA0o91RT3EwOvX+KX/A1Xkn/8m78FCgEFgDD//S//LowpQQH4tx88+cZgBYhk9gEDz+f3/dz+TBBQDABgoDLAvfpIRFFhBMkwd30f4P8BgCdHZe87LaAAAAAASUVORK5CYII=",
+      },
+      {
+        name: "Tableau",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAQlBMVEVHcExwmaVwmaVlgJtwmaXrkShwmaVah5vrkShah5vodizodizodixbZZFbZZFbZZFbZZHHIDYeRH7HIDYeRH4eRH76/o4UAAAAFXRSTlMAEPw7VXizePb2NP3ws1P8EHh49vNnJOVcAAAAr0lEQVR4AX3Q0RaFEBCF4Q1SCKT3f9WTuaE1R99FN/9iTHgRAmtSYkVpKbUCYwyATT42ANZitu/zyeNgccyco9mJodfCHsSyCIzIrnUOWM70nkdapQsBeK+iNgVgRKJOhU5LzWNMEYCQnYDzIQRPH4ecuvwZv6/9fhApZY61YnZd809o7V90jsVykQJSW7vv1iqLOY/Irk1pOVPFlKLikVY50+Nkq5BxkhkzV3LG7AcvlAr9NZNe3AAAAABJRU5ErkJggg==",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "Statistics",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fisher_iris_versicolor_sepalwidth.svg/250px-Fisher_iris_versicolor_sepalwidth.svg.png",
+      },
+    ],
+  },
+  {
     title: "Others",
     skills: [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAXVBMVEX////wUTPvOwr4tq75x8HwTS3wSSb2o5jvQx3++PfwTzDvRiH+8vDvPxX96+j3s6vvNQD85uT84t7xW0HyaVP1k4bzfWz0j4H2nZH72dT4vrfxZU30iHnxX0fybVjWDntTAAABjUlEQVRIia3W63aDIAwA4EaKpSBI7dr1tr3/Yw5FBBUNcJZ/ot8xmJDj4fD/oVrSlDiihdDHAleBiSpbWpcvncuV3uXJM6NQJhsokU2hJLorkqTirET239NJKQVPlbYOo+zU8UrTpKuflX18JUlfdy6VXbrIhH2G/SLdifrhqAwdiLPL1cMNOXMg3SbRqswd0Pu4rui+XDiT63eSXDmT7MMckw6REQf1yUB92ZUxZ6EUVsa7L+osZNzK5+W17r64GyFYOVR0IZWOOgeNHLtP+e7TfV+1Yh9CNcLDe9qmIH2mKHTdd59yFa25bJBUgT1HyKc36iGJ4+7H8d33Yu5WRexKXE4Q2G14auU2pIdQ08/tJ+LiMoDAac1jLipDGMTcRSSXLwNriri1FMMIOAcjJ+6WciixiU5ibiGnKXflmJvLacr9UtTNpHSHiW7UYUvSj11Z9xkm2Wm4TnShFHB7vJNdKHm91WeYxOuAyTS3lqluKdPdXOa4UOY5L3Odk/nOyP7XusCZSU1ahT+VHX8jrRGDfH3kSQAAAABJRU5ErkJggg==",
       },
       {
         name: "GitHub",
@@ -155,7 +189,7 @@ export const skills = [
       {
         name: "Netlify",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAALVBMVEX////f9PQAt7QAu7iM2dj7/v43xMKe3934/f3a8vLGz8+Mn54hwL0ANDI9xcM3IX9gAAAAUUlEQVR4AWOgHDAKoHCZFFC4zAa4uSwBKFynVBS9YeocDUhc1ko0e1fvgrF4jI2NGvbe5lA2Nj6AxkUoRjMKt0VOT5kU0B1J2EcI76MHDsUAANZSEj24Z6GKAAAAAElFTkSuQmCC",
       },
       {
         name: "VS Code",
@@ -267,9 +301,9 @@ export const projects = [
       },
       {
         name: "Yash Sonone",
-        img: "https://media.licdn.com/dms/image/v2/D5603AQHXI6WsScy-6w/profile-displayphoto-scale_400_400/B56ZgDKtv5HIAg-/0/1752399797847?e=1762992000&v=beta&t=0ikHTVfkssRugHv4-1NQLGGgMrrjYqnRqNtVlF7y_90",
-        linkedin: "https://www.linkedin.com/in/yash-s-0ab717248/",
-        github: "#",
+        img: "https://avatars.githubusercontent.com/u/132239373?v=4",
+        linkedin: "https://www.linkedin.com/in/yash-s-0ab717248/", 
+        github: "https://github.com/yashsonone99",
       },
     ],
   },
