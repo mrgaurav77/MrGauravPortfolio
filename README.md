@@ -1,5 +1,4 @@
-<!-- 🌐 Gaurav Kolhe — Premium Portfolio README -->
-<!-- SEO Optimized Metadata -->
+
 <meta name="title" content="Gaurav Kolhe — React Developer Portfolio">
 <meta name="description" content="A modern developer portfolio built using React, Bootstrap, and custom UI design. Showcasing projects, skills, and professional experience. Deployed on Netlify.">
 <meta name="keywords" content="Gaurav Kolhe, Portfolio, React Developer, Frontend Developer, JavaScript Developer, Bootstrap, Netlify, Web Development">
@@ -52,21 +51,19 @@ This portfolio represents my professional identity as a developer, combining ele
 - Smooth transitions & interactions  
 - Organized project showcase  
 - Instant global delivery via Netlify CDN  
-- SEO-ready metadata (included above)  
+- SEO-ready metadata
 
 ---
 
-## 🖼️ UI Preview  
-*(Place real screenshots in `/screenshots`)*  
-
+## 🖼️ UI Preview   
 <p align="center">
   <img src="src/images/image.png" width="700" alt="Preview"/>
   <br><br>
-  <img src="src/images/image1.p0ng" width="700" alt="Preview"/>
+  <img src="src/images/image1.png" width="700" alt="Preview"/>
     <br><br>
-  <img src="src/images/image2.p0ng" width="700" alt="Preview"/>
+  <img src="src/images/image2.png" width="700" alt="Preview"/>
     <br><br>
-  <img src="src/images/image3.p0ng" width="700" alt="Preview"/>
+  <img src="src/images/image3.png" width="700" alt="Preview"/>
 </p>
 
 ---
