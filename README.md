@@ -59,11 +59,11 @@ This portfolio represents my professional identity as a developer, combining ele
 <p align="center">
   <img src="src/images/image.png" width="700" alt="Preview"/>
   <br><br>
-  <img src="src/images/image1.png" width="700" alt="Preview"/>
-    <br><br>
   <img src="src/images/image2.png" width="700" alt="Preview"/>
     <br><br>
   <img src="src/images/image3.png" width="700" alt="Preview"/>
+    <br><br>
+  <img src="src/images/image4.png" width="700" alt="Preview"/>
 </p>
 
 ---
